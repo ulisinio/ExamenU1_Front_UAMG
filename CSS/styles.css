@@ -415,3 +415,19 @@ footer{
     color: white;
     font-family: var(--font-gruesa);
 }
+.flecha-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white; /* Flecha blanca sólida */
+    z-index: 999;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: var(--azul);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.flecha-arriba:hover {
+    transform: scale(1.2);
+}
