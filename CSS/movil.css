@@ -1,0 +1,105 @@
+@media screen and (max-width: 400px) {
+    .contenedor-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bloque-contacto:nth-child(2) {
+        display: none;
+    }
+
+    .derecha {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bloque-contacto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .bloque-contacto i {
+        font-size: 40px;
+    }
+
+    .menu-principal ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-principal li {
+        width: 100%;
+        text-align: center;
+        border-top: 3px solid var(--gris);
+        padding: 15px 0;
+    }
+
+    .menu-principal li a {
+        display: block;
+        width: 100%;
+        color: #000;
+    }
+
+    .menu-principal li:last-child {
+        border-bottom: 1px solid var(--gris);
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .seccion-bienvenida .contenedor-bienvenida {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .seccion-bienvenida figure {
+        width: 100%;
+    }
+
+    .seccion-bienvenida figure img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .seccion-bienvenida .texto-bienvenida {
+        width: 100%;
+        padding: 0 15px;
+        text-align: justify; /* mantiene el texto justificado */
+    }
+
+    .seccion-bienvenida .texto-bienvenida h2 {
+        font-size: 26px;
+    }
+    .seccion-exito{
+        display: none;
+    }
+    .seccion-ayuda{
+        display: none;
+    }
+    .seccion-noticias{
+        display: none;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .servicio {
+        width: 90%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .boton-centro {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
